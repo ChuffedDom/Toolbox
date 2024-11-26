@@ -13,13 +13,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'App Calculator',
+      title: 'App Cost Calculator',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF4747bf)),
         useMaterial3: true,
         textTheme: GoogleFonts.poppinsTextTheme(),
       ),
-      home: const MyHomePage(title: 'App Calculator'),
+      home: const MyHomePage(title: 'App Cost Calculator'),
     );
   }
 }
@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
-                    "App Calculator",
+                    "App Cost Calculator",
                     style: Theme.of(context).textTheme.displayLarge,
                   ),
                   SizedBox(height: 8),
